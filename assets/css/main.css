@@ -1,0 +1,140 @@
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #F9B23D;
+}
+
+.header {
+  margin-bottom: 56px;
+}
+
+.header .logo-img {
+  float: left;
+  margin-top: 20px;
+  margin-left: 24px;
+  width: 72px;
+  height: 72px;
+}
+
+.header .back-button {
+  float: left;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 32px;
+  height: 32px;
+}
+
+.header h1 {
+  position: relative;
+  top: 40px;
+  left: 24px;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  color: #F9B23D;
+}
+
+body {
+  background-color: #9C835F;
+  font-family: 'Open Sans', sans-serif;  
+}
+
+.game {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.vs {
+  text-align: center;
+  font-size: 70px;
+  align-self: center;
+  color: #BD0000;
+}
+
+.player, .computer {
+  width: 400px;
+  height: 672px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #e8eddf;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.player {
+  background-color: #247ba0;
+  /* transform: skewX(10deg); */
+}
+
+.computer {
+  background-color: #d31010;
+  /* transform: skewX(-10deg); */
+}
+
+.message {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.player-rotate {
+  /* transform: skewX(-10deg);   */
+}
+
+.computer-rotate {
+  /* transform: skewX(10deg); */
+}
+
+.hand-rock {
+
+}
+ 
+.option {
+  display: flex;
+  font-size: 75px;
+  justify-content: space-between;
+  flex-direction: column;
+  transition: 0.4s;
+}
+
+.player-rotate .fa-hand-rock:hover, .player-rotate .fa-hand-paper:hover, .player-rotate .fa-hand-scissors:hover {
+  text-shadow: 2px 2px 30px black;
+  cursor: pointer;
+}
+
+.score {
+  margin-bottom: 10px;
+  font-size: 30px;  
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.text-computer {
+  text-align: right;
+}
+
+.score-computer {
+  text-align: left;
+}
+
+.score-player {
+  text-align: right;
+  direction: rtl;
+}
+
+#reset {
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
